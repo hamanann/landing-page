@@ -43,7 +43,8 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 48px;
-    padding: 128px 0;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
 
 .header .container {
@@ -69,9 +70,9 @@ header {
 .signup-btn {
     background-color: #3882f6;
     padding: 8px 32px;
-    border-radius: 12px;
-    color: inherit;
-    font-size: inherit;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     margin-top: 12px;
@@ -116,7 +117,8 @@ header {
 }
 
 .quote-container {
-    padding: 80px 0;
+    padding-bottom: 80px;
+    padding-top: 80px;
     width: 760px;
 }
 
@@ -130,4 +132,23 @@ header {
 .quote-author {
     font-weight: bold;
     text-align: end;
+}
+
+.signup-section {
+    padding-top: 80px ;
+    padding-bottom: 80px;
+}
+
+.signup-section .container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 56px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;   
+}
+
+.signup-section .signup-btn {
+    border: 2px solid #e5e7eb;
 }

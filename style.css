@@ -120,7 +120,7 @@ footer {
 .quote-container {
     padding-bottom: 80px;
     padding-top: 80px;
-    width: 760px;
+    max-width: 760px;
 }
 
 .quote-text {
@@ -128,6 +128,7 @@ footer {
     font-weight: 100;
     color: #1f2937;
     font-style: italic;
+
 }
 
 .quote-author {

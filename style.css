@@ -14,7 +14,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-header {
+header,
+footer {
     background-color: #1f2937;
     font-size: 18px;
     color: #e5e7eb;
@@ -151,4 +152,11 @@ header {
 
 .signup-section .signup-btn {
     border: 2px solid #e5e7eb;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
